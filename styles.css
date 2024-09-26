@@ -1,0 +1,118 @@
+/* styles.css */
+
+/* General Styles */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    
+   
+}
+
+/* Header */
+header {
+    background-color: #2c3e50;
+    color: white;
+    padding: 1.5rem;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+p {
+    margin-top: 0.5rem;
+    font-size: 1.1rem;
+}
+
+/* Section for Places */
+#places {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 2rem;
+}
+
+.place {
+    background-color: #ecf0f1;
+    border-radius: 10px;
+    width: 300px;
+    margin: 1rem;
+    padding: 1rem;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+}
+
+.place:hover {
+    transform: translateY(-10px);
+}
+
+.place img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
+
+.place h2 {
+    font-size: 1.8rem;
+    color: #2c3e50;
+}
+
+/* Parking Info Styles */
+#parking-info {
+    margin: 2rem auto;
+    max-width: 900px;
+    text-align: center;
+}
+
+.parking-lot {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 40px;
+}
+
+.parking-area {
+    background-color: #ecf0f1;
+    border-radius: 8px;
+    width: 250px;
+    padding: 1rem;
+    margin: 1rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.parking-area h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+/* Footer */
+footer {
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+.parking-overview-image {
+    width: 100%;
+    max-width: 900px; /* Adjust based on your design */
+    margin: 20px auto;
+    display: block;
+    border-radius: 8px; /* Optional: Adds rounded corners to the image */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Optional: Adds a shadow around the image */
+}

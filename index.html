@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Parking System</title>
+    <link rel="stylesheet" href="styles.css">
+    <style> body{
+        background-image: url(img3.jpg);
+    }</style>
+</head>
+<body>
+    
+    <header>
+        <h1>Smart Parking System</h1>
+        <p>Please select a location below to view the available parking spaces in real-time.</p>
+    </header>
+
+    <section id="places">
+        <div class="place" onclick="goToParkingPage('mall')">
+            <img src="img1.jpg">
+            <h2>Place 1</h2>
+            <p>Find out how many parking spaces are available at the Place 1 in real-time.</p>
+        </div>
+
+        <div class="place" onclick="goToParkingPage('hospital')">
+            <img src="img2.jpg">
+            <h2>Place 2</h2>
+            <p>View the current availability of parking spaces at the Place 2.</p>
+        </div>
+
+        <!-- You can add more locations here -->
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Smart Parking System. All rights reserved.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
